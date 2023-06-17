@@ -6,7 +6,7 @@ const favicon = require('serve-favicon')
 const path = require('path')
 const { registered_urls } = require("./settings")
 const { splitUrl } = require("./src/utils/001")
-const port =  5000
+const port =  3000
 
 
 app.use("*",require("./src"))
