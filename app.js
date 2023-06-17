@@ -4,7 +4,7 @@ const app = express()
 const fs = require("fs")
 const favicon = require('serve-favicon')
 const path = require('path')
-const port = process.env.PORT ? process.env.PORT : 5000
+const port =  5000
 
 
 app.use(require("./src"))
