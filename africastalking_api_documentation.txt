@@ -1,0 +1,128 @@
+Read request data
+ 
+
+Now that we’ve set up our USSD code, let’s write a simple USSD app.
+
+Let’s assume we hold user info and we would like them to access it via USSD. We will build a simple USSD menu that asks users to enter 1 to view their account and 2 to view their phone number. On the accounts page, they can enter 1 for the account number or 2 for the account balance.
+
+We will be writing in a file called ussd.py which is available in the IDE to the right.
+
+For this course, we will be using the Flask framework
+
+We have initialized a brand new Flask app. We have made sure that it’s the main app running. Just below that, we have defined a route that allows us to actually access our application. We have defined the methods that we need which is the GET and POST HTTP methods. We have defined a method/function that will be executed when we are accessing the route. In this case, we’ve called it ussd_callback. Within the method we receive some special parameters that we are getting from the Africa’s Talking API:
+
+session_id gets a unique session ID
+service_code gets your USSD code
+phone_number gets the phone number thats currently accessing the USSD
+text carries the user response as they use the USSD application
+from flask import Flask, request
+app = Flask(__name__)
+
+response = ""
+
+@app.route('/', methods=['POST', 'GET'])
+def ussd_callback():
+  global response
+  session_id = request.values.get("sessionId", None)
+  service_code = request.values.get("serviceCode", None)
+  phone_number = request.values.get("phoneNumber", None)
+  text = request.values.get("text", "default")
+ 
+Process user input
+Now we have the data sent by the USSD API.
+
+We need to check the text variable. It will always contain user input. If it is empty, we
+are just starting the session and there is no user input. We can show the initial page.
+
+ if text == '':
+    response  = "CON What would you want to check \n"
+    response += "1. My Account \n"
+    response += "2. My phone number"
+Remember: The plaintext output of our app has to start with either END, to put an end to a session, or CON to continue it.
+
+ 
+
+If the text is 1, then we need to show the account page.
+
+ elif text == '1':
+    response = "CON Choose account information you want to view \n"
+    response += "1. Account number \n"
+    response += "2. Account balance"
+If the text is 1*1, then we need to show the account number page.
+
+ elif text == '1*1':
+    accountNumber  = "ACC1001"
+    response = "END Your account number is " + accountNumber
+If the text is 1*2, then we need to show the account balance page.
+
+elif text == '1*2':
+  balance  = "KES 10,000"
+  response = "END Your balance is " + balance
+If the text is 2, then we need to show the phone number page.
+
+elif text == '2':
+  response = "END This is your phone number " + phone_number
+ 
+Respond to request
+We can now send a response back to the USSD API. You will notice something peculiar about the statements that we are sending back with the response variable. We have CON and END at the beginning of any response. When we use CON, we are telling the USSD that we are expecting user input while the END statement shows a blurb with a text and no option for a user entering their details. This serves to show the end of the interaction with the USSD.
+
+So now we simply return the response variable.
+
+ return response
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=os.environ.get('PORT'))
+ 
+
+Running the app
+Hit run, then dial your USSD code on the simulator(e.g. *384*1234#.)
+
+Glad that you got this far! You’re a champ! 😎
+
+For more information on USSD, check our USSD documentation to learn more
+
+
+"""
+# Your code goes here
+# code: 73029, url: https://tikeknac.developers.africastalking.com
+from flask import Flask, request
+import os
+app = Flask(__name__)
+
+
+
+def respond(text):
+  print(text+"\n")
+  response = ""
+
+  if text == '':
+    response  = "CON What would you want to check \n"
+    response += "1. My Account \n"
+    response += "2. My phone number"
+  elif text == '1':
+    response = "CON Choose account information you want to view \n"
+    response += "1. Account number \n"
+    response += "2. Account balance"
+  elif text == '1*1':
+    accountNumber  = "ACC1001"
+    response = "END Your account number is " + accountNumber
+  elif text == '1*2':
+    balance  = "KES 10,000"
+    response = "END Your balance is " + balance
+  elif text == '2':
+    response = "END Your phone number is +254 791 199 270" 
+  print(response+"\n")
+  return response
+
+
+@app.route('/', methods=['POST', 'GET'])
+def ussd_callback():
+  global response
+  session_id = request.values.get("sessionId", None)
+  service_code = request.values.get("serviceCode", None)
+  phone_number = request.values.get("phoneNumber", None)
+  text = request.values.get("text", "default")
+  return respond(text)
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=os.environ.get('PORT'))
+"""
