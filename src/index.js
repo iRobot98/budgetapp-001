@@ -11,7 +11,7 @@ router.use("*",(req,res,callNext)=>{
 
     callNext();
 })
-
+router.get("*",require("./file_handling"))
 
 router.use("/api",require("./api"))
 
