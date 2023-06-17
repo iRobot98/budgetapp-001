@@ -12,5 +12,8 @@ module.exports = {
       ".md",
       ".tmp",
     ],
+    registered_urls:{
+        app:["home","search","contracts"]
+    },
     invalid_files: [".htaccess", ".gitignore", ".npmrc", ".env"],
 }
