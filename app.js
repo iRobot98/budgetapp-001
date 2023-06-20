@@ -6,6 +6,7 @@ const favicon = require('serve-favicon')
 const path = require('path')
 const { registered_urls } = require("./settings")
 const { splitUrl } = require("./src/utils/001")
+const logger = require("./src/log")
 const port = process.env.PORT ? process.env.PORT : 5000
 
 
@@ -31,7 +32,7 @@ app.get("/*", require("./src/router_import"), (req, res, callNext) => {
 app.get("/", (req, res) => {
     res.type("html")
     res.setTimeout(100 * 60 * 60 * 24)
-    res.send(fs.readFileSync("./views/app/build/index.html"))
+    res.send(fs.readFileSync("./views/website/index.html"))
 })
 
 app.get("/", express.static("views"))
@@ -39,3 +40,5 @@ app.get("/", express.static("views"))
 app.listen(port, () => {
     console.log(`App listening on port ${port}`)
 })
+
+

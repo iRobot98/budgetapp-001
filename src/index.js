@@ -1,6 +1,7 @@
 const logger = require("./log")
 const router = require("./router_import")
 
+const DB = require("./DB")
 
 router.use("*", logger, (req, res, callNext) => {
     const { ip, method, originalUrl } = req
