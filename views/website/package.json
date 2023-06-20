@@ -1,0 +1,28 @@
+{
+  "name": "budgetapp-website",
+  "version": "0.1.0",
+  "description": "landing page for budget app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/css/_index.css -o ./assets/css/index.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iRobot98/budgetapp-001.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "budgetapp"
+  ],
+  "author": "Judah O Matende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iRobot98/budgetapp-001/issues"
+  },
+  "homepage": "https://github.com/iRobot98/budgetapp-001#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

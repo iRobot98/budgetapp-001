@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    padding: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: auto;
+
+}
