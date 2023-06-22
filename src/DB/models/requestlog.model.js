@@ -6,7 +6,7 @@ const RequestLog = model('RequestLog', new Schema(
     {
         time: { type: String, required: true },
         url_string: { type: String, required: true },
-        headers: { type: Mixed, required: true },
+        headers: { type: Schema.Types.Mixed, required: true },
         httpVersion: { type: String, required: true },
     }, {
     timestamps: true

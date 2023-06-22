@@ -1,6 +1,3 @@
-
-
-
 const cp = require("child_process")
 
 const log_proc = cp.fork("./src/log/logger_cp.js")

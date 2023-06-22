@@ -1,7 +1,7 @@
 console.log("jwt authentication online")
 
 const jwt = require("jsonwebtoken");
-const models = require("../models");
+const models = require("../../DB/models");
 const argon2 = require("argon2");
 const { errorHandler, withTransaction, HttpError } = require("../../utils/error");
 
@@ -90,14 +90,14 @@ const newAccessToken = errorHandler(async (req, res) => {
 });
 
 // Log Out
-const logout = errorHandler(withTransaction(async (req, res, session) => {
+const Log_Out = errorHandler(withTransaction(async (req, res, session) => {
     const refreshToken = await validateRefreshToken(req.body.refreshToken);
     await models.RefreshToken.deleteOne({ _id: refreshToken.tokenId }, { session });
     return { success: true };
 }));
 
 // Log Out All
-const logoutAll = errorHandler(withTransaction(async (req, res, session) => {
+const Log_Out_All = errorHandler(withTransaction(async (req, res, session) => {
     const refreshToken = await validateRefreshToken(req.body.refreshToken);
     await models.RefreshToken.deleteMany({ owner: refreshToken.userId }, { session });
     return { success: true };
@@ -156,6 +156,6 @@ module.exports = {
     Log_In,
     newRefreshToken,
     newAccessToken,
-    logout,
-    logoutAll
+    Log_Out,
+    Log_Out_All
 };
