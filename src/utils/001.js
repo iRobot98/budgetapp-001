@@ -26,8 +26,13 @@ const wait = async (time_in_s = 1) => {
   })
 }
 
+
+const wait_loop = (num = 10) => {
+  wait(num).then(wait_loop)
+}
+
 module.exports = {
   removeDuplicates,
   splitUrl,
-  wait
+  wait, wait_loop
 };

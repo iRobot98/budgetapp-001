@@ -1,26 +1,20 @@
 
-const fs = require("fs")
-const { log_dir } = require("../../settings")
-const { pino } = require("pino")
-
-// const write_to_log = (name, text) => {
-//     fs.writeFileSync(`${log_dir}/${name}.txt`, text + '\n', {
-//         flag: "a+", encoding: "utf8"
-//     })
-// }
 
 
-const logger = require('pino-http')({
-    level: process.env.LOG_LEVEL ? process.env.LOG_LEVEL : 'silent',
-    timestamp: pino.stdTimeFunctions.isoTime,
-    // transport: {
-    //     target: 'pino-http-print', // use the pino-http-print transport and its formatting output
-    //     options: {
-    //         destination: 1,
-    //         all: true,
-    //         translateTime: true
-    //     }
-    // }
-})
+const cp = require("child_process")
 
+const log_proc = cp.fork("./src/log/logger_cp.js")
+
+
+const logger = (req, res, next) => {
+    const { headers, httpVersion, method, originalUrl, ip } = req
+    const data = JSON.stringify({
+        time: ((new Date).toUTCString()),
+        url_string: `${method} ${originalUrl} ${ip}`,
+        headers: headers, httpVersion,
+    })
+    log_proc.send(data, (err) => console.log(err))
+
+    next()
+}
 module.exports = logger

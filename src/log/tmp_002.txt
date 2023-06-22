@@ -1,0 +1,1315 @@
+
+> budgetapp-002@0.1.0 dev
+> nodemon app.js
+
+[33m[nodemon] 2.0.22[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': 'a28f3d5edcf7b2f88c34b7cb1ff772d9',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  }
+}
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': 'a28f3d5edcf7b2f88c34b7cb1ff772d9',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  }
+}
+/home 
+ home
+200 GET ::ffff:127.0.0.1 /home
+200 GET ::ffff:127.0.0.1 /home
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '13a1ca1c5225e790f406576b40dc882b',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/js/main.e53ead08.js',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: '*/*',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'script',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  }
+}
+200 GET ::ffff:127.0.0.1 /static/js/main.e53ead08.js
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '1ecb205c4d577eccf6115fbfcc6a82b2',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/css/main.75f5d170.css',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'text/css,*/*;q=0.1',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'style',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  }
+}
+200 GET ::ffff:127.0.0.1 /static/css/main.75f5d170.css
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': 'b9410bb88afc20fd984886be0441d0ee',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/favicon.ico',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'image',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  }
+}
+200 GET ::ffff:127.0.0.1 /favicon.ico
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '6d0f77450a352a0f3155bb8a40e36872',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '6d0f77450a352a0f3155bb8a40e36872',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+/home 
+ home
+200 GET ::ffff:127.0.0.1 /home
+200 GET ::ffff:127.0.0.1 /home
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '2f134d9c917e635bc3ae45ac8f71dbfb',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/js/main.e53ead08.js',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: '*/*',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'script',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/js/main.e53ead08.js
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '06d4e3c951d62739c472dbfb75443606',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/css/main.75f5d170.css',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'text/css,*/*;q=0.1',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'style',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/css/main.75f5d170.css
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '4c7c9a69df5d56991537ec7c73d37169',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/favicon.ico',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'image',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /favicon.ico
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+
+> budgetapp-002@0.1.0 dev
+> nodemon app.js
+
+[33m[nodemon] 2.0.22[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '515ef5220e167b1dde42576a9555647c',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '515ef5220e167b1dde42576a9555647c',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+/home 
+ home
+200 GET ::ffff:127.0.0.1 /home
+200 GET ::ffff:127.0.0.1 /home
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '0c59e9c179444c9b7ce9d7c9454bbdee',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/js/main.e53ead08.js',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: '*/*',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'script',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/js/main.e53ead08.js
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': 'e30781d5c3087096f710b9f8a0aa2920',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/css/main.75f5d170.css',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'text/css,*/*;q=0.1',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'style',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/css/main.75f5d170.css
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '1418c99d5cf1acdb2eb77205dee60d6e',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/favicon.ico',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'image',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /favicon.ico
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '8193defe269e5bee02fb0dd4a3372d15',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1',
+  _server: undefined
+}
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '8193defe269e5bee02fb0dd4a3372d15',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1',
+  _server: undefined
+}
+/home 
+ home
+200 GET ::ffff:127.0.0.1 /home
+200 GET ::ffff:127.0.0.1 /home
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': 'c0d2b210050f73f63f6ed5f4fd81c605',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/js/main.e53ead08.js',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: '*/*',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'script',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1',
+  _server: undefined
+}
+200 GET ::ffff:127.0.0.1 /static/js/main.e53ead08.js
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '3cb3c9533d131035f6177171938c84ea',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/css/main.75f5d170.css',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'text/css,*/*;q=0.1',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'style',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1',
+  _server: undefined
+}
+200 GET ::ffff:127.0.0.1 /static/css/main.75f5d170.css
+{
+  headers: {
+    host: 'localhost',
+    'x-request-id': '83628a5b256f8e0cbccb2dfa27d8ca03',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/favicon.ico',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'image',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1',
+  _server: undefined
+}
+200 GET ::ffff:127.0.0.1 /favicon.ico
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[Function: toUTCString]
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+Thu, 22 Jun 2023 08:29:34 GMT
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+{
+  time: 'Thu, 22 Jun 2023 08:31:29 GMT',
+  headers: {
+    host: 'localhost',
+    'x-request-id': 'd9b9b3be6efd66b8811ba085290d26d4',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+{
+  time: 'Thu, 22 Jun 2023 08:31:29 GMT',
+  headers: {
+    host: 'localhost',
+    'x-request-id': 'd9b9b3be6efd66b8811ba085290d26d4',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/home',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    dnt: '1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-user': '?1',
+    'sec-fetch-dest': 'document',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+/home 
+ home
+200 GET ::ffff:127.0.0.1 /home
+200 GET ::ffff:127.0.0.1 /home
+{
+  time: 'Thu, 22 Jun 2023 08:31:29 GMT',
+  headers: {
+    host: 'localhost',
+    'x-request-id': '37a990948f09307dde5f85b2bbb11791',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/js/main.e53ead08.js',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: '*/*',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'script',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/js/main.e53ead08.js
+{
+  time: 'Thu, 22 Jun 2023 08:31:29 GMT',
+  headers: {
+    host: 'localhost',
+    'x-request-id': '9d5c540369dac7d524ad99e3a86936b7',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/static/css/main.75f5d170.css',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'text/css,*/*;q=0.1',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'style',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/css/main.75f5d170.css
+{
+  time: 'Thu, 22 Jun 2023 08:31:30 GMT',
+  headers: {
+    host: 'localhost',
+    'x-request-id': '79f1188473cb4485106889183359ee9b',
+    'x-real-ip': '197.232.151.90',
+    'x-forwarded-for': '197.232.151.90',
+    'x-forwarded-host': 'irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev',
+    'x-forwarded-port': '443',
+    'x-forwarded-proto': 'https',
+    'x-forwarded-scheme': 'https',
+    'x-original-uri': '/favicon.ico',
+    'x-scheme': 'https',
+    connection: 'Keep-Alive',
+    'proxy-connection': 'Keep-Alive',
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    dnt: '1',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+    accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'image',
+    referer: 'https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zu;q=0.8'
+  },
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /favicon.ico
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+{
+  time: 'Thu, 22 Jun 2023 08:39:33 GMT',
+  url_string: 'GET /home ::ffff:127.0.0.1',
+  headers: '{"host":"localhost","x-request-id":"e59b91d577a34760ea0318d5b64d9c99","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/home","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\\"Not.A/Brand\\";v=\\"8\\", \\"Chromium\\";v=\\"114\\", \\"Google Chrome\\";v=\\"114\\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\\"Windows\\"","dnt":"1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-fetch-site":"same-origin","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"}',
+  httpVersion: '1.1'
+}
+{
+  time: 'Thu, 22 Jun 2023 08:39:33 GMT',
+  url_string: 'GET /home ::ffff:127.0.0.1',
+  headers: '{"host":"localhost","x-request-id":"e59b91d577a34760ea0318d5b64d9c99","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/home","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\\"Not.A/Brand\\";v=\\"8\\", \\"Chromium\\";v=\\"114\\", \\"Google Chrome\\";v=\\"114\\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\\"Windows\\"","dnt":"1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-fetch-site":"same-origin","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"}',
+  httpVersion: '1.1'
+}
+/home 
+ home
+200 GET ::ffff:127.0.0.1 /home
+200 GET ::ffff:127.0.0.1 /home
+{
+  time: 'Thu, 22 Jun 2023 08:39:34 GMT',
+  url_string: 'GET /static/js/main.e53ead08.js ::ffff:127.0.0.1',
+  headers: '{"host":"localhost","x-request-id":"47eca13f72b186451a73d4fbfa797469","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/static/js/main.e53ead08.js","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\\"Not.A/Brand\\";v=\\"8\\", \\"Chromium\\";v=\\"114\\", \\"Google Chrome\\";v=\\"114\\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","sec-ch-ua-platform":"\\"Windows\\"","accept":"*/*","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","referer":"https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"}',
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/js/main.e53ead08.js
+{
+  time: 'Thu, 22 Jun 2023 08:39:34 GMT',
+  url_string: 'GET /static/css/main.75f5d170.css ::ffff:127.0.0.1',
+  headers: '{"host":"localhost","x-request-id":"441a09e53be6fdf6cc59170ba7045e85","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/static/css/main.75f5d170.css","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\\"Not.A/Brand\\";v=\\"8\\", \\"Chromium\\";v=\\"114\\", \\"Google Chrome\\";v=\\"114\\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","sec-ch-ua-platform":"\\"Windows\\"","accept":"text/css,*/*;q=0.1","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"style","referer":"https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"}',
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /static/css/main.75f5d170.css
+{
+  time: 'Thu, 22 Jun 2023 08:39:34 GMT',
+  url_string: 'GET /favicon.ico ::ffff:127.0.0.1',
+  headers: '{"host":"localhost","x-request-id":"8eeba713a4a0aac4a9ef4a28acb3196c","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/favicon.ico","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\\"Not.A/Brand\\";v=\\"8\\", \\"Chromium\\";v=\\"114\\", \\"Google Chrome\\";v=\\"114\\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","sec-ch-ua-platform":"\\"Windows\\"","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","referer":"https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"}',
+  httpVersion: '1.1'
+}
+200 GET ::ffff:127.0.0.1 /favicon.ico
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+{"time":"Thu, 22 Jun 2023 08:41:46 GMT","url_string":"GET /home ::ffff:127.0.0.1","headers":{"host":"localhost","x-request-id":"7536a8359b880871573b2d985e4595e6","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/home","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","dnt":"1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-fetch-site":"same-origin","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"},"httpVersion":"1.1"}
+{"time":"Thu, 22 Jun 2023 08:41:46 GMT","url_string":"GET /home ::ffff:127.0.0.1","headers":{"host":"localhost","x-request-id":"7536a8359b880871573b2d985e4595e6","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/home","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","dnt":"1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-fetch-site":"same-origin","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"},"httpVersion":"1.1"}
+/home 
+ home
+200 GET ::ffff:127.0.0.1 /home
+200 GET ::ffff:127.0.0.1 /home
+{"time":"Thu, 22 Jun 2023 08:41:46 GMT","url_string":"GET /static/js/main.e53ead08.js ::ffff:127.0.0.1","headers":{"host":"localhost","x-request-id":"ab49245d3e59257af74c5a1a70b0d54a","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/static/js/main.e53ead08.js","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","accept":"*/*","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","referer":"https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"},"httpVersion":"1.1"}
+200 GET ::ffff:127.0.0.1 /static/js/main.e53ead08.js
+{"time":"Thu, 22 Jun 2023 08:41:46 GMT","url_string":"GET /static/css/main.75f5d170.css ::ffff:127.0.0.1","headers":{"host":"localhost","x-request-id":"35df7c79081ad21187bbdc177f4f2e5b","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/static/css/main.75f5d170.css","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","accept":"text/css,*/*;q=0.1","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"style","referer":"https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"},"httpVersion":"1.1"}
+200 GET ::ffff:127.0.0.1 /static/css/main.75f5d170.css
+{"time":"Thu, 22 Jun 2023 08:41:47 GMT","url_string":"GET /favicon.ico ::ffff:127.0.0.1","headers":{"host":"localhost","x-request-id":"c6d6321ee27ffd32ffb75474e6a92d0b","x-real-ip":"197.232.151.90","x-forwarded-for":"197.232.151.90","x-forwarded-host":"irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev","x-forwarded-port":"443","x-forwarded-proto":"https","x-forwarded-scheme":"https","x-original-uri":"/favicon.ico","x-scheme":"https","connection":"Keep-Alive","proxy-connection":"Keep-Alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","referer":"https://irobot98-literate-spoon-v6wqjqg99g424jp-5050.preview.app.github.dev/home","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9,zu;q=0.8"},"httpVersion":"1.1"}
+200 GET ::ffff:127.0.0.1 /favicon.ico
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+hi
+[
+  'dockerignore', 'editorconfig',
+  'Dockerfile',   'js',
+  'json',         'COMMIT_EDITMSG',
+  'FETCH_HEAD',   'HEAD',
+  'ORIG_HEAD',    'config',
+  'description',  'index',
+  'packed-refs',  'sh',
+  'yaml',         'ico',
+  'png',          'html',
+  'out',          'css',
+  'jsx',          'map'
+]
+utils
+mongoDB connection string: mongodb+srv://budgetapp-admin-001:VdoVO1AuzTHC7ob2@olivineschool000.jerpqjx.mongodb.net/BudgetApp?retryWrites=true&w=majority
+App listening on port 5050
+Connected to database

@@ -11,7 +11,6 @@ async function connectToDatabase() {
         try {
             const user = "budgetapp-admin-001" //process.env.DB_USER;
             const password = "VdoVO1AuzTHC7ob2"// process.env.DB_PASS;
-            const dbName = dbName;
 
             const connectionString = `mongodb+srv://${user}:${password}@olivineschool000.jerpqjx.mongodb.net/${dbName}?retryWrites=true&w=majority`;
             console.log(`mongoDB connection string: ${connectionString}`)
