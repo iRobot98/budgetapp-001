@@ -6,7 +6,6 @@ const argon2 = require("argon2");
 const { errorHandler, withTransaction, HttpError } = require("../../utils/error");
 
 const { secret } = require("./../../../settings")
-const { refresh_token, access_token } = secret
 
 // Sign Up
 const Sign_Up = errorHandler(withTransaction(async (req, res, session) => {
@@ -108,7 +107,7 @@ const logoutAll = errorHandler(withTransaction(async (req, res, session) => {
 function createAccessToken(userId) {
     return jwt.sign({
         userId: userId
-    }, process.env.ACCESS_TOKEN_SECRET, {
+    }, secret.access_token, {
         expiresIn: '10m'
     });
 }
@@ -118,7 +117,7 @@ function createRefreshToken(userId, refreshTokenId) {
     return jwt.sign({
         userId: userId,
         tokenId: refreshTokenId
-    }, refresh_token, {
+    }, secret.refresh_token, {
         expiresIn: '30d'
     });
 }
@@ -136,7 +135,7 @@ const verifyPassword = async (hashedPassword, rawPassword) => {
 const validateRefreshToken = async (token) => {
     const decodeToken = () => {
         try {
-            return jwt.verify(token, refresh_token);
+            return jwt.verify(token, secret.refresh_token);
         } catch (err) {
             // err
             throw new HttpError(401, 'Unauthorised');
