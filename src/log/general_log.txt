@@ -18,3 +18,8 @@ Thu, 22 Jun 2023 13:40:57 GMT:  200 GET ::ffff:127.0.0.1 /
 Thu, 22 Jun 2023 13:40:58 GMT:  404 GET ::ffff:127.0.0.1 /assets/css/index.css
 Thu, 22 Jun 2023 13:40:58 GMT:  404 GET ::ffff:127.0.0.1 /assets/css/index.css
 Thu, 22 Jun 2023 13:40:58 GMT:  200 GET ::ffff:127.0.0.1 /favicon.ico
+Thu, 22 Jun 2023 13:52:31 GMT:  200 GET ::ffff:127.0.0.1 /
+Thu, 22 Jun 2023 13:52:31 GMT:  200 GET ::ffff:127.0.0.1 /
+Thu, 22 Jun 2023 13:52:32 GMT:  404 GET ::ffff:127.0.0.1 /assets/css/index.css
+Thu, 22 Jun 2023 13:52:32 GMT:  404 GET ::ffff:127.0.0.1 /assets/css/index.css
+Thu, 22 Jun 2023 13:52:32 GMT:  200 GET ::ffff:127.0.0.1 /favicon.ico
