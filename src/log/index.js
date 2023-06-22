@@ -1,15 +1,29 @@
-const cp = require("child_process")
+const { request_log, general_log } = require("./utilities")
 
 
-const logger = (req, res, next) => {
+const request_logger = (req, res, next) => {
+
     const { headers, httpVersion, method, originalUrl, ip } = req
-    const data = JSON.stringify({
-        time: ((new Date).toUTCString()),
-        url_string: `${method} ${originalUrl} ${ip}`,
-        headers: headers, httpVersion,
+
+    res.on("finish", () => {
+        const { statusCode } = res
+
+        general_log(`${statusCode} ${method} ${ip} ${originalUrl}`)
     })
-    console.log(data)
+
+    const data = {
+        time: Date.now(),
+        url_string: `${method} ${originalUrl} ${ip}`,
+        headers, httpVersion,
+    }
+    request_log(data)
+    next(); return;
+
+
+
+
+
 
     next()
 }
-module.exports = logger
+module.exports = request_logger

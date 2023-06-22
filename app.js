@@ -20,7 +20,7 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.get("/*", require("./src/router_import"), (req, res, callNext) => {
     const { originalUrl } = req
     const split_ = splitUrl(originalUrl)
-    console.log(originalUrl, "\n", split_.last)
+
     if (registered_urls.app.includes(split_.last) && split_.split[0] == '') {
         res.type("html")
         res.setTimeout(100 * 60 * 60 * 24)

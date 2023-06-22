@@ -12,7 +12,11 @@ const RequestLog = model('RequestLog', new Schema(
     timestamps: true
 }
 ));
+const GeneralLog = model("GeneralLog", new Schema({
+    time: { type: Number, required: true },
+    log_entry: { type: String, required: true },
+}))
 
 
 
-module.exports = RequestLog;
+module.exports = { RequestLog, GeneralLog };
