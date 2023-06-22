@@ -1,7 +1,5 @@
 const cp = require("child_process")
 
-const log_proc = cp.fork("./src/log/logger_cp.js")
-
 
 const logger = (req, res, next) => {
     const { headers, httpVersion, method, originalUrl, ip } = req
@@ -10,7 +8,7 @@ const logger = (req, res, next) => {
         url_string: `${method} ${originalUrl} ${ip}`,
         headers: headers, httpVersion,
     })
-    log_proc.send(data, (err) => console.log(err))
+    console.log(data)
 
     next()
 }
