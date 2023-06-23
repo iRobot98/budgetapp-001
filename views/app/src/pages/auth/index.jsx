@@ -1,9 +1,10 @@
-import Log_In from "./log_in";
-import route_guard, { } from "./route_guard";
+import LogIn from "./log_in";
+import route_guard, { hasJWT} from "./route_guard";
 import Sign_Up from "./sign_up";
 
 export {
     route_guard,
-    Log_In,
-    Sign_Up
+    LogIn,
+    Sign_Up,
+    hasJWT,
 }

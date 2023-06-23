@@ -1,3 +1,8 @@
+import Layout from "../components/Layout"
+
 export default function Contract(props) {
-    return <div>Contract</div>
+    return (<Layout>
+        Contract
+    </Layout>)
+    
 }

@@ -1,3 +1,8 @@
+import Layout from "../components/Layout"
+
 export default function Search(props) {
-    return <div>Search</div>
+    return (<Layout>
+        Search
+    </Layout>)
+    
 }

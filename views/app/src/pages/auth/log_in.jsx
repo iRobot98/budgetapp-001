@@ -1,3 +1,3 @@
-export default function Log_In(props) {
+export default function LogIn(props) {
     return <div>Log In</div>
 }

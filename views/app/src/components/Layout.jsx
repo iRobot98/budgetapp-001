@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 
 
 
-export default function Layout(props) {
+export default function Layout({children}) {
     return (
         <div>
             <nav id="navbar">
@@ -20,7 +20,7 @@ export default function Layout(props) {
             </nav>
 
             <div>
-                <Outlet/>
+                {children}
             </div>
         </div>
     )

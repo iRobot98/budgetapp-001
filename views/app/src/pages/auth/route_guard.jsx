@@ -1,17 +1,24 @@
-import React from 'react';
-import { redirect } from 'react-router-dom';
+import React from "react";
+import { Navigate, Route, redirect } from "react-router-dom";
 
-function hasJWT() {
+export function hasJWT() {
     //check user has JWT token
-    return localStorage.getItem("token") ? true : false
+    return localStorage.getItem("token") ? true : false;
 }
 const route_guard = async () => {
-
+    console.log("route_guard called");
     if (!hasJWT()) {
         return redirect("/login");
     }
-    return null;
+    return true;
 };
 
-export default route_guard
+export function AuthRoute({ children }) {
+    if (!hasJWT()) return <Navigate to="/login" replace />;
+    return children;
+}
+export default function AuthenticateRoutes({ path, component }) {
+    return <Route element={<AuthRoute> {component} </AuthRoute>} path={path} />;
+}
 
+export { route_guard };
