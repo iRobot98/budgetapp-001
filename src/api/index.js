@@ -1,5 +1,10 @@
 const router = require("../router_import")
 
-router.use("/v1",require("./v1"))
+
+const multer  = require('multer')
+const upload = multer()
+
+
+router.use("/v1", upload.none(),require("./v1"))
 
 module.exports = router

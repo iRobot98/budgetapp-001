@@ -11,6 +11,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("*", require("./src"))
+
+app.use("/api",require("./src/api"))
+
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 // REGISTER APP URLS

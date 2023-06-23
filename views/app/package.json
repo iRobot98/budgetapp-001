@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "kill":"taskkill -im node.exe -im cmd.exe -f"
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {

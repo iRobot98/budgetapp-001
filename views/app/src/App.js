@@ -6,7 +6,7 @@ import Search from "./pages/Search";
 import Contract from "./pages/Contract";
 import NoPage from "./pages/NoPage";
 import { LogIn, route_guard, hasJWT } from "./pages/auth";
-import AuthenticateRoutes, { AuthRoute } from "./pages/auth/route_guard";
+import AuthenticateRoutes, { AuthRoute, DevRoute } from "./pages/auth/route_guard";
 
 export default function App() {
     let routes_ = [
@@ -19,9 +19,10 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/login" element={<LogIn />} />
-               { routes_ 
+               {/* { routes_ 
             .map(AuthenticateRoutes)
-          }
+          } */}
+          {routes_.map(DevRoute)}
            
                 <Route path="*" element={<NoPage />} />
             </Routes>

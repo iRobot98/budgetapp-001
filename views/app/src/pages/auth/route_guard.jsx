@@ -21,4 +21,9 @@ export default function AuthenticateRoutes({ path, component }) {
     return <Route element={<AuthRoute> {component} </AuthRoute>} path={path} />;
 }
 
+export function DevRoute({ path, component }) {
+    return <Route element={component}  path={path} />;
+}
+
+
 export { route_guard };
