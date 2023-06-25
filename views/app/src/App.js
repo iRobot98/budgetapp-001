@@ -1,15 +1,14 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Layout from "./components/Layout";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Contract from "./pages/Contract";
 import NoPage from "./pages/NoPage";
-import { LogIn, route_guard, hasJWT } from "./pages/auth";
-import AuthenticateRoutes, { AuthRoute, DevRoute } from "./pages/auth/route_guard";
-
+import { LogIn } from "./pages/auth";
+// import AuthenticateRoutes, { AuthRoute  } from "./pages/auth/route_guard";
+import { DevRoute } from "./pages/auth/route_guard";
+import ForgotPassword from "./pages/auth/forgot_password";
 export default function App() {
-    let routes_ = [
+    let guarded_routes = [
         { component: <Home />, path: "home" },
         { component: <Contract />, path: "contract" },
         { component: <Search />, path: "search" },
@@ -19,11 +18,10 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/login" element={<LogIn />} />
-               {/* { routes_ 
-            .map(AuthenticateRoutes)
-          } */}
-          {routes_.map(DevRoute)}
-           
+                {/* { guarded_routes.map(AuthenticateRoutes) } */}
+                {guarded_routes.map(DevRoute)}
+
+                <Route path="/forgot_password" element={<ForgotPassword />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>

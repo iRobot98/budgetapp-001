@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "kill":"taskkill -im node.exe -im cmd.exe -f"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:5050",
   "eslintConfig": {
     "extends": [
       "react-app",

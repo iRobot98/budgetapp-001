@@ -1,8 +1,6 @@
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-
-
-export default function Layout({children}) {
+export default function Layout({ children }) {
     return (
         <div>
             <nav id="navbar">
@@ -19,9 +17,7 @@ export default function Layout({children}) {
                 </ul>
             </nav>
 
-            <div>
-                {children}
-            </div>
+            <div>{children}</div>
         </div>
-    )
-};
+    );
+}
