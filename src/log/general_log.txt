@@ -109,3 +109,11 @@ Fri, 23 Jun 2023 13:56:48 GMT:  200 POST ::1 /api/v1/auth/log-in
 Fri, 23 Jun 2023 13:58:04 GMT:  200 POST ::1 /api/v1/auth/log-in
 Fri, 23 Jun 2023 13:58:04 GMT:  200 POST ::1 /api/v1/auth/log-in
 Fri, 23 Jun 2023 13:58:04 GMT:  200 POST ::1 /api/v1/auth/log-in
+Sun, 25 Jun 2023 09:20:58 GMT:  200 POST ::1 /api/v1/auth/log-in
+Sun, 25 Jun 2023 09:20:59 GMT:  200 POST ::1 /api/v1/auth/log-in
+Sun, 25 Jun 2023 09:20:59 GMT:  200 POST ::1 /api/v1/auth/log-in
+Sun, 25 Jun 2023 09:24:14 GMT:  200 GET ::1 /home
+Sun, 25 Jun 2023 09:24:14 GMT:  200 GET ::1 /home
+Sun, 25 Jun 2023 09:24:16 GMT:  200 GET ::1 /static/js/main.693a6e0b.js
+Sun, 25 Jun 2023 09:24:16 GMT:  200 GET ::1 /static/css/main.75f5d170.css
+Sun, 25 Jun 2023 09:24:16 GMT:  200 GET ::1 /manifest.json
