@@ -11,7 +11,16 @@
     min-height: 100vh;
     margin: auto;
     background-color: white;
+    position: relative;
+    overflow-x: hidden;
+}
 
+#navbar {
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left:0;
+    right:0;
 }
 
 #navbar ul {
@@ -23,4 +32,9 @@
 #navbar ul li {
     margin: .2rem;
     padding: 0 .2rem;
+}
+
+#layout-children {
+    min-height: 100vh;
+    padding: .5rem;
 }

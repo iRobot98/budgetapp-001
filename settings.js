@@ -4,7 +4,7 @@ module.exports = {
   log_dir: "./src/log",
   dbName: "BudgetApp",
   invalid_dirs: [".git", ".vscode", "node_modules", "react_views"],
-  valid_dirs: ["assets", "views"],
+  valid_dirs: ["assets", "views","public"],
   invalid_exts: [
     ".bat",
     ".env",

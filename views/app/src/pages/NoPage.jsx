@@ -1,3 +1,7 @@
+import Layout from "../components/Layout";
+
 export default function NoPage(props) {
-    return <div>NoPage</div>
+    return <Layout>
+        NoPage
+    </Layout>
 }
