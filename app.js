@@ -22,7 +22,7 @@ app.get("/*", require("./src/router_import"), fetch_app)
 app.get("/", fetch_landing)
 
 
-app.get("/", express.static("views"))
+app.get("/", express.static("views"),express.static("public"),)
 
 app.listen(port, () => {
     console.log(`App listening on port ${port}`)

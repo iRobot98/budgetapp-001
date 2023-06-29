@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Contract from "./pages/Contract";
@@ -14,6 +14,7 @@ export default function App() {
         { component: <Search />, path: "search" },
     ];
 
+    
     return (
         <BrowserRouter>
             <Routes>
@@ -22,7 +23,8 @@ export default function App() {
                 {guarded_routes.map(DevRoute)}
 
                 <Route path="/forgot_password" element={<ForgotPassword />} />
-                <Route path="*" element={<NoPage />} />
+                <Route path="/not_found" element={<NoPage />} />
+                <Route path="*" element={<Navigate to="/not_found" replace />} />
             </Routes>
         </BrowserRouter>
     );

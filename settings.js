@@ -16,7 +16,7 @@ module.exports = {
     ".tmp",
   ],
   registered_urls: {
-    app: ["home", "search", "contracts"]
+    app: ["home", "search", "contracts", "login","not_found"]
   },
   invalid_files: [".htaccess", ".gitignore", ".npmrc", ".env", "Dockerfile"],
   secret: {

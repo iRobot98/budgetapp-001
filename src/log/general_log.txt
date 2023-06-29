@@ -117,3 +117,9 @@ Sun, 25 Jun 2023 09:24:14 GMT:  200 GET ::1 /home
 Sun, 25 Jun 2023 09:24:16 GMT:  200 GET ::1 /static/js/main.693a6e0b.js
 Sun, 25 Jun 2023 09:24:16 GMT:  200 GET ::1 /static/css/main.75f5d170.css
 Sun, 25 Jun 2023 09:24:16 GMT:  200 GET ::1 /manifest.json
+Thu, 29 Jun 2023 12:47:57 GMT:  200 GET ::1 /api/v1/helloworld
+Thu, 29 Jun 2023 12:47:57 GMT:  200 GET ::1 /api/v1/helloworld
+Thu, 29 Jun 2023 12:47:57 GMT:  304 GET ::1 /api/v1/helloworld
+Thu, 29 Jun 2023 12:47:57 GMT:  304 GET ::1 /api/v1/helloworld
+Thu, 29 Jun 2023 13:08:14 GMT:  404 GET ::1 /main.3e4a958c1d53289643a7.hot-update.json
+Thu, 29 Jun 2023 13:08:14 GMT:  404 GET ::1 /main.3e4a958c1d53289643a7.hot-update.json
