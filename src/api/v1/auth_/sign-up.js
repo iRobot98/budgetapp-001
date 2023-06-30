@@ -28,6 +28,36 @@ const check_each_field = (
     }
 ) => {
     let errors = {};
+
+    check_fullname(errors, e_f);
+
+    check_username(errors, e_f);
+
+    check_password(errors, e_f);
+
+    check_idnumber(errors, e_f);
+
+    check_country(errors, e_f);
+
+    check_phonenumber(errors, e_f);
+    return errors;
+};
+
+const check_fullname = (
+    errors = {},
+    e_f = {
+        full_name: {
+            first_name: "",
+            middle_name: "",
+            last_name: "",
+        },
+        user_name: "",
+        password: "",
+        phone_number: [""],
+        id_number: "",
+        country: "",
+    }
+) => {
     if (
         !e_f.full_name ||
         typeof e_f.full_name !== "object" ||
@@ -62,8 +92,27 @@ const check_each_field = (
                 errors["full_name"].fields["last_name"] += ", wrong type";
             }
         }
+    } else {
+        // use full_name for user name
+        e_f.user_name = `${e_f.full_name.first_name}_${e_f.full_name.middle_name[0]}_${e_f.full_name.last_name}`;
     }
+};
 
+const check_username = (
+    errors = {},
+    e_f = {
+        full_name: {
+            first_name: "",
+            middle_name: "",
+            last_name: "",
+        },
+        user_name: "",
+        password: "",
+        phone_number: [""],
+        id_number: "",
+        country: "",
+    }
+) => {
     if (!e_f.user_name || typeof e_f.user_name !== "string") {
         errors["user_name"] = {
             type: "expected, string",
@@ -77,7 +126,23 @@ const check_each_field = (
             }
         }
     }
+};
 
+const check_password = (
+    errors = {},
+    e_f = {
+        full_name: {
+            first_name: "",
+            middle_name: "",
+            last_name: "",
+        },
+        user_name: "",
+        password: "",
+        phone_number: [""],
+        id_number: "",
+        country: "",
+    }
+) => {
     if (!e_f.password || typeof e_f.password !== "string") {
         errors["password"] = {
             type: "expected, string",
@@ -91,7 +156,23 @@ const check_each_field = (
             }
         }
     }
+};
 
+const check_idnumber = (
+    errors = {},
+    e_f = {
+        full_name: {
+            first_name: "",
+            middle_name: "",
+            last_name: "",
+        },
+        user_name: "",
+        password: "",
+        phone_number: [""],
+        id_number: "",
+        country: "",
+    }
+) => {
     if (!e_f.id_number || typeof e_f.id_number !== "string") {
         errors["id_number"] = {
             type: "expected, string",
@@ -105,6 +186,23 @@ const check_each_field = (
             }
         }
     }
+};
+
+const check_country = (
+    errors = {},
+    e_f = {
+        full_name: {
+            first_name: "",
+            middle_name: "",
+            last_name: "",
+        },
+        user_name: "",
+        password: "",
+        phone_number: [""],
+        id_number: "",
+        country: "",
+    }
+) => {
     if (!e_f.country || typeof e_f.country !== "string") {
         errors["country"] = {
             type: "expected, string",
@@ -118,8 +216,42 @@ const check_each_field = (
             }
         }
     }
-    return errors;
 };
+
+const check_phonenumber = (
+    errors = {},
+    e_f = {
+        full_name: {
+            first_name: "",
+            middle_name: "",
+            last_name: "",
+        },
+        user_name: "",
+        password: "",
+        phone_number: [""],
+        id_number: "",
+        country: "",
+    }
+) => {
+    if (
+        !e_f.phone_number ||
+        !Array.isArray(e_f.phone_number) ||
+        !e_f.phone_number.length
+    ) {
+        errors["phone_number"] = {
+            type: "expected, array",
+        };
+
+        if (!e_f.phone_number) {
+            errors["phone_number"].missing = true;
+        } else {
+            if (!Array.isArray(e_f.phone_number)) {
+                errors["phone_number"].error = "wrong type";
+            }
+        }
+    }
+};
+
 module.exports = {
     example_request,
     expected_fields,
