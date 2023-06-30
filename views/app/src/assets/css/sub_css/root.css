@@ -3,7 +3,7 @@
     position: relative;
     flex-direction: column;
     align-content: center;
-    background-color: gray;
+    background-color: rgb(211, 206, 206);
 }
 
 #root {
@@ -13,28 +13,4 @@
     background-color: white;
     position: relative;
     overflow-x: hidden;
-}
-
-#navbar {
-    position: absolute;
-    z-index: 5;
-    bottom: 0;
-    left:0;
-    right:0;
-}
-
-#navbar ul {
-    display: flex;
-    position: relative;
-
-}
-
-#navbar ul li {
-    margin: .2rem;
-    padding: 0 .2rem;
-}
-
-#layout-children {
-    min-height: 100vh;
-    padding: .5rem;
 }

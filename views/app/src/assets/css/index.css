@@ -593,6 +593,14 @@ video {
   flex-direction: column;
 }
 
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -608,7 +616,7 @@ video {
   position: relative;
   flex-direction: column;
   align-content: center;
-  background-color: gray;
+  background-color: rgb(211, 206, 206);
 }
 
 #root {
@@ -624,23 +632,71 @@ video {
   position: absolute;
   z-index: 5;
   bottom: 0;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid black;
 }
 
 #navbar ul {
   display: flex;
   position: relative;
+  justify-content: space-evenly;
 }
 
 #navbar ul li {
-  margin: .2rem;
-  padding: 0 .2rem;
+  margin: 0.5rem 0.2rem;
+  padding: 0 0.2rem;
 }
 
 #layout-children {
   min-height: 100vh;
-  padding: .5rem;
+  padding: 0.5rem;
+}
+
+#header-banner {
+  background-color: rgb(96, 97, 99);
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+#header-banner .profile_pic {
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0.1rem;
+}
+
+#header-banner > .logo {
+  height: 2rem;
+  display: flex;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#header-banner > .dropDown {
+  min-width: 2rem;
+}
+
+.dropDown {
+  /* background-color: white; */
+  border-radius: 8px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile .user_info {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
 }
 
 #login_form {
@@ -659,7 +715,7 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   background: #84d337;
   margin: 20px 50px;
   padding: 30px;

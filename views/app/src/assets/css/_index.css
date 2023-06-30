@@ -1,3 +1,4 @@
 @import "./tailwindcss.css";
 @import "./sub_css/root.css";
+@import "./sub_css/layout.css";
 @import "./sub_css/login_signup_forms.css";
