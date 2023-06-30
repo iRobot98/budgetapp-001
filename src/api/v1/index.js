@@ -1,5 +1,5 @@
-const router = require("../../router_import")
+const router = require("../../router_import");
 
-router.use("/auth", require("./auth"))
+router.use("/auth", require("./auth_"));
 
-module.exports = router
+module.exports = router;
