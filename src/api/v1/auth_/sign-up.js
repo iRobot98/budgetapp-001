@@ -67,9 +67,12 @@ const check_each_field = (
             type: "expected, string",
         };
 
-        if (!e_f.user_name) errors["user_name"].missing = true;
-        if (typeof e_f.full_name !== "string") {
-            errors["user_name"].error = "wrong type";
+        if (!e_f.user_name) {
+            errors["user_name"].missing = true;
+        } else {
+            if (typeof e_f.full_name != "string") {
+                errors["user_name"].error = "wrong type";
+            }
         }
     }
 
