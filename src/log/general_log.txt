@@ -566,3 +566,12 @@ Fri, 30 Jun 2023 12:54:06 GMT:  400 POST ::1 /api/v1/auth/sign-up
 Fri, 30 Jun 2023 12:54:06 GMT:  400 POST ::1 /api/v1/auth/sign-up
 Fri, 30 Jun 2023 12:54:06 GMT:  400 POST ::1 /api/v1/auth/sign-up
 Fri, 30 Jun 2023 12:54:06 GMT:  400 POST ::1 /api/v1/auth/sign-up
+Fri, 30 Jun 2023 13:02:13 GMT:  400 POST ::1 /api/v1/auth/sign-up
+Fri, 30 Jun 2023 13:02:13 GMT:  400 POST ::1 /api/v1/auth/sign-up
+Fri, 30 Jun 2023 13:02:13 GMT:  400 POST ::1 /api/v1/auth/sign-up
+Fri, 30 Jun 2023 13:02:13 GMT:  400 POST ::1 /api/v1/auth/sign-up
+Fri, 30 Jun 2023 13:06:19 GMT:  304 GET ::1 /fontawesome6/css/all.min.css
+Fri, 30 Jun 2023 13:06:19 GMT:  304 GET ::1 /images/default_profile_picture.png
+Fri, 30 Jun 2023 13:06:20 GMT:  304 GET ::1 /images/logo.png
+Fri, 30 Jun 2023 13:06:20 GMT:  304 GET ::1 /fontawesome6/webfonts/fa-solid-900.woff2
+Fri, 30 Jun 2023 13:06:22 GMT:  304 GET ::1 /logo192.png
